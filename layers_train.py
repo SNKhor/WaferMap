@@ -10,7 +10,7 @@ Created on Tue Apr 17 11:43:29 2018
 import tensorflow as tf
 from keras.layers import Conv2D
 from keras.initializers import RandomNormal
-from .deform_conv import tf_batch_map_offsets
+from deform_conv import tf_batch_map_offsets
 
 
 class ConvOffset2D_train(Conv2D):
